@@ -44,13 +44,13 @@ cacheSolve <- function(x, ...) {
 
 ### Example:
 
-### Create a 6X6 matrix
+### Create a 6X6 matrix.
 ## xx <- rbind(c(9,-4,3,50,5,9),c(34,4,12,8,5,9),c(56,4,3,5,88,-15),c(500,45,7,2,0.5,5),
 ##            c(34,123,21,10,45,67),c(85,12,-2,-14,-45,59))
 
-### Execute the functions
+### Execute the functions.
 ## a <- makeCacheMatrix(xx)
 ## cacheSolve(a)
 
-### Execute cacheSolve again to see the difference in the output information
+### Execute cacheSolve again to see the difference in the output information.
 ## cacheSolve(a)
